@@ -1,0 +1,123 @@
+2014-10-30 23:47:37.4549|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+System.InvalidOperationException: Sequence contains no elements.
+   в System.Reactive.Subjects.AsyncSubject`1.GetResult()
+   в GitHub.Helpers.GitClient.<>c__DisplayClass27.<<CreateCommit>b__1e>d__30.MoveNext()
+2014-10-30 23:47:13.1565|INFO|thread: 1|CommandLineHandler|Parsing command line arguments:C:\Users\Alexx\AppData\Local\Apps\2.0\OZPBLQV3.KJA\J62KJN9M.MTG\gith..tion_317444273a93ac29_0002.0005_f2bbfed8cb3268d4\GitHub.exe
+2014-10-30 23:47:13.2195|INFO|thread: 1|AppInstanceCommunicator|Starting up as master instance of GitHub for Windows
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| #########################################
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| GitHub for Windows started. VERSION: 2.5.2.2
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| Build version: fe6395bd352b8fc51f0927d4cdb931a54e7d72e1
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| ***************************************
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| ***                                 ***
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| ***                                 ***
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| ***        Have a problem?          ***
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| ***    Email support@github.com     ***
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| ***      and include this file      ***
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| ***                                 ***
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| ***                                 ***
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| ***************************************
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| OS Version: Windows NT 6.3.9600.0 amd64
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| CLR Version: 4.0.30319.34014
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| Current culture: ru-RU
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| Terminal Services session: no
+2014-10-30 23:47:13.2445|INFO|thread: 8|StartupLogging| Location: C:\Users\Alexx\AppData\Local\Apps\2.0\OZPBLQV3.KJA\J62KJN9M.MTG\gith..tion_317444273a93ac29_0002.0005_f2bbfed8cb3268d4\GitHub.exe
+2014-10-30 23:47:13.2695|INFO|thread: 1|HardwareRenderingHelper|Your video card appears to support hardware rendering. If this isn't the case and you see glitches
+2014-10-30 23:47:13.2695|INFO|thread: 1|HardwareRenderingHelper|set the GH_FORCE_SW_RENDERING environment variable to 1
+2014-10-30 23:47:13.3135|INFO|thread: 8|StartupLogging| ActivationUri: https://github-windows.s3.amazonaws.com/GitHub.application
+2014-10-30 23:47:13.4685|WARN|thread: 1|POCOObservableForProperty|ReactiveUI.ReactiveCommandSix`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:13.6635|INFO|thread: 8|GitEnvironment|Process set up with this SSH Agent info: 704:/tmp/ssh-JvOqkrLeFxpD/agent.4120
+2014-10-30 23:47:13.6635|INFO|thread: 8|GitEnvironment|PATH is C:\Users\Alexx\AppData\Local\GitHub\PortableGit_ed44d00daa128db527396557813e7b68709ed0e2\cmd;C:\Users\Alexx\AppData\Local\GitHub\PortableGit_ed44d00daa128db527396557813e7b68709ed0e2\bin;C:\Users\Alexx\AppData\Local\Apps\2.0\OZPBLQV3.KJA\J62KJN9M.MTG\gith..tion_317444273a93ac29_0002.0005_f2bbfed8cb3268d4;C:\Users\Alexx\AppData\Local\GitHub\git-media-amd64_0.2.2;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+2014-10-30 23:47:13.6635|INFO|thread: 8|StartupLogging| =====================================================
+2014-10-30 23:47:13.6635|INFO|thread: 8|StartupLogging|  DIAGNOSTICS                                        |
+2014-10-30 23:47:13.6635|INFO|thread: 8|StartupLogging| =====================================================
+2014-10-30 23:47:13.6635|INFO|thread: 8|StartupLogging| Git Extracted: 'True:
+2014-10-30 23:47:13.6635|INFO|thread: 8|StartupLogging| PortableGit Dir Exists: 'C:\Users\Alexx\AppData\Local\GitHub\PortableGit_ed44d00daa128db527396557813e7b68709ed0e2'
+2014-10-30 23:47:13.6695|INFO|thread: 8|StartupLogging| Git Executable Exists: 'C:\Users\Alexx\AppData\Local\GitHub\PortableGit_ed44d00daa128db527396557813e7b68709ed0e2\bin\git.exe'
+2014-10-30 23:47:13.6695|INFO|thread: 8|StartupLogging| ----------------------------------------------------
+2014-10-30 23:47:13.6695|INFO|thread: 8|StartupLogging| PATH: C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+2014-10-30 23:47:13.7695|INFO|thread: 8|StartupLogger|Proxy information: (None)
+2014-10-30 23:47:13.7695|INFO|thread: 8|StartupLogger|Couldn't fetch creds for proxy
+2014-10-30 23:47:14.5486|INFO|thread: 1|App|Checking whether application is network deployed.
+2014-10-30 23:47:14.6486|INFO|thread: 1|ClickOnceAppIconHelper|Updating registry with our application icon 'C:\Users\Alexx\AppData\Local\Apps\2.0\OZPBLQV3.KJA\J62KJN9M.MTG\gith..tion_317444273a93ac29_0002.0005_f2bbfed8cb3268d4\Images\App.ico'
+2014-10-30 23:47:15.1726|WARN|thread: 1|LogHost|SuppressChangeNotifications was called (perhaps via AddRange), yet you do not
+2014-10-30 23:47:15.1726|WARN|thread: 1|LogHost|have a subscription to ShouldReset. This probably isn't what you want, as ItemsAdded
+2014-10-30 23:47:15.1726|WARN|thread: 1|LogHost|and friends will appear to 'miss' items
+2014-10-30 23:47:18.0118|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.DropRepositoryView is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:18.3438|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.DashboardView is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:18.5028|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.RepositoryCloneProgress is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:18.7158|INFO|thread: 1|GitExtractionVisualHelper|Portable Git is already extracted
+2014-10-30 23:47:18.7158|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.ShellViewModel.
+2014-10-30 23:47:18.7158|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.DashboardViewModel.
+2014-10-30 23:47:19.3689|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.SourceList is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:19.5509|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.SourceListRepositoryItem is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:19.6499|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.RepositoryNotFound is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:19.6759|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.PopupMenuView is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:19.8339|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.AddOrCreatePopup is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:19.9719|INFO|thread: 1|PortablePackageManager|Already extracted gitignore.7z, returning 100%
+2014-10-30 23:47:19.9949|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.CreateRepositoryTab is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:20.1579|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.BrowseRepositoriesTab is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:20.1879|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.BrowseRepositoriesList is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:20.3509|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.TwoFactorView is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:20.4079|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.UndoFlashView is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:20.5639|WARN|thread: 1|LogHost|SuppressChangeNotifications was called (perhaps via AddRange), yet you do not
+2014-10-30 23:47:20.5639|WARN|thread: 1|LogHost|have a subscription to ShouldReset. This probably isn't what you want, as ItemsAdded
+2014-10-30 23:47:20.5639|WARN|thread: 1|LogHost|and friends will appear to 'miss' items
+2014-10-30 23:47:20.8300|WARN|thread: 1|POCOObservableForProperty|GitHub.Validation.ReactivePropertyValidationResult is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:21.9590|WARN|thread: 1|POCOObservableForProperty|ReactiveUI.ReactiveCommandSix`1[[System.Reactive.Unit, System.Reactive.Core, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]] is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:22.3460|WARN|thread: 1|LogHost|SuppressChangeNotifications was called (perhaps via AddRange), yet you do not
+2014-10-30 23:47:22.3460|WARN|thread: 1|LogHost|have a subscription to ShouldReset. This probably isn't what you want, as ItemsAdded
+2014-10-30 23:47:22.3460|WARN|thread: 1|LogHost|and friends will appear to 'miss' items
+2014-10-30 23:47:23.1491|WARN|thread: 1|POCOObservableForProperty|ReactiveUI.ReactiveCommandSix`1[[GitHub.Models.ICommitModel, GitHub, Version=2.5.2.2, Culture=neutral, PublicKeyToken=null]] is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:23.3441|INFO|thread:15|GitClient|Loading commits for repo: C:\Users\Alexx\Documents\GitHub\Unity_repo
+2014-10-30 23:47:23.6531|INFO|thread:15|RepositoryConnection|Loaded '2' commits for repo: C:\Users\Alexx\Documents\GitHub\Unity_repo\.
+2014-10-30 23:47:24.0631|INFO|thread: 8|RepositoryViewModel|Refreshing all information for repo
+2014-10-30 23:47:24.0861|INFO|thread:13|AsyncReaderWriterLock|Acquiring concurrent lock for operation 1: 'LoadHeadForRepo' on resource C:\Users\Alexx\Documents\GitHub\Unity_repo\.git
+2014-10-30 23:47:24.2342|INFO|thread:14|AsyncReaderWriterLock|Acquired concurrent lock for operation 1: 'LoadHeadForRepo' on resource C:\Users\Alexx\Documents\GitHub\Unity_repo\.git
+2014-10-30 23:47:24.3452|INFO|thread: 1|RepositoryHost|Log in from cache for login 'Alex410303' to host 'https://api.github.com/' SUCCEEDED
+2014-10-30 23:47:24.3612|INFO|thread:14|AsyncReaderWriterLock|Released concurrent lock for operation 1: 'LoadHeadForRepo' on resource C:\Users\Alexx\Documents\GitHub\Unity_repo\.git
+2014-10-30 23:47:24.5862|INFO|thread:18|ApplicationShellInitializer|Running post login tasks. ~/.gitconfig is set up with user.name = 'Alex410303' and user.email = 'Alex410303@gmail.com'
+2014-10-30 23:47:24.8382|INFO|thread:14|SoftwareUpdateViewModel|Checking for new version
+2014-10-30 23:47:24.8382|WARN|thread: 1|LogHost|SuppressChangeNotifications was called (perhaps via AddRange), yet you do not
+2014-10-30 23:47:24.8382|WARN|thread: 1|LogHost|have a subscription to ShouldReset. This probably isn't what you want, as ItemsAdded
+2014-10-30 23:47:24.8382|WARN|thread: 1|LogHost|and friends will appear to 'miss' items
+2014-10-30 23:47:25.0422|INFO|thread:14|AsyncReaderWriterLock|Acquiring concurrent lock for operation 2: 'LoadFilesInWorkingDirectory' on resource C:\Users\Alexx\Documents\GitHub\Unity_repo\.git
+2014-10-30 23:47:25.0422|INFO|thread:14|AsyncReaderWriterLock|Acquired concurrent lock for operation 2: 'LoadFilesInWorkingDirectory' on resource C:\Users\Alexx\Documents\GitHub\Unity_repo\.git
+2014-10-30 23:47:25.0422|INFO|thread:14|GitEnvironment|Process set up with this SSH Agent info: 704:/tmp/ssh-JvOqkrLeFxpD/agent.4120
+2014-10-30 23:47:25.0422|INFO|thread:14|GitEnvironment|PATH is C:\Users\Alexx\AppData\Local\GitHub\PortableGit_ed44d00daa128db527396557813e7b68709ed0e2\cmd;C:\Users\Alexx\AppData\Local\GitHub\PortableGit_ed44d00daa128db527396557813e7b68709ed0e2\bin;C:\Users\Alexx\AppData\Local\Apps\2.0\OZPBLQV3.KJA\J62KJN9M.MTG\gith..tion_317444273a93ac29_0002.0005_f2bbfed8cb3268d4;C:\Users\Alexx\AppData\Local\GitHub\git-media-amd64_0.2.2;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2014-10-30 23:47:25.0652|INFO|thread:14|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Alexx\AppData\Local\GitHub\PortableGit_ed44d00daa128db527396557813e7b68709ed0e2\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Alexx\Documents\GitHub\Unity_repo\
+2014-10-30 23:47:25.3012|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.RepositoryView is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:25.4522|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.PublishToHostButton is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:25.4642|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.AheadBehindIndicator is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:25.4902|INFO|thread:18|SSHKeyHelper|ssh-agent already running
+2014-10-30 23:47:25.4902|INFO|thread:18|PortablePackageManager|Already extracted PortableGit.7z, returning 100%
+2014-10-30 23:47:25.4902|INFO|thread:18|PortablePackageManager|Already extracted git-media-amd64.7z, returning 100%
+2014-10-30 23:47:25.4972|INFO|thread:18|GitEnvironment|Process set up with this SSH Agent info: 704:/tmp/ssh-JvOqkrLeFxpD/agent.4120
+2014-10-30 23:47:25.4972|INFO|thread:18|GitEnvironment|PATH is C:\Users\Alexx\AppData\Local\GitHub\PortableGit_ed44d00daa128db527396557813e7b68709ed0e2\cmd;C:\Users\Alexx\AppData\Local\GitHub\PortableGit_ed44d00daa128db527396557813e7b68709ed0e2\bin;C:\Users\Alexx\AppData\Local\Apps\2.0\OZPBLQV3.KJA\J62KJN9M.MTG\gith..tion_317444273a93ac29_0002.0005_f2bbfed8cb3268d4;C:\Users\Alexx\AppData\Local\GitHub\git-media-amd64_0.2.2;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2014-10-30 23:47:25.4972|INFO|thread:18|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Alexx\AppData\Local\GitHub\PortableGit_ed44d00daa128db527396557813e7b68709ed0e2\bin\ssh-add.exe', Args: '"C:\Users\Alexx\.ssh\github_rsa"', Working Directory: C:\Users\Alexx\AppData\Local\Temp\
+2014-10-30 23:47:25.6572|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.CommitForm is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:25.7002|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.NewCommitView is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:25.8863|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.PublishToHostPopup is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:26.0223|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.PublishToHostTab is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:26.2553|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.GitHubLogin is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:26.5153|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.GitHubEnterpriseLogin is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:26.7233|INFO|thread:13|GitClient|Loading commits for repo: C:\Users\Alexx\Documents\GitHub\Unity_repo
+2014-10-30 23:47:26.7233|INFO|thread:13|RepositoryConnection|Loaded '0' commits for repo: C:\Users\Alexx\Documents\GitHub\Unity_repo\.
+2014-10-30 23:47:26.7633|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.BranchesPopup is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:27.7294|INFO|thread: 7|SSHKeyHelper|Found existing SSH key pair
+2014-10-30 23:47:27.8684|INFO|thread:13|GitClient|Loading commits for repo: C:\Users\Alexx\Documents\GitHub\Unity_repo
+2014-10-30 23:47:27.9274|INFO|thread:13|RepositoryConnection|Loaded '2' commits for repo: C:\Users\Alexx\Documents\GitHub\Unity_repo\.
+2014-10-30 23:47:27.9894|INFO|thread:15|AsyncReaderWriterLock|Released concurrent lock for operation 2: 'LoadFilesInWorkingDirectory' on resource C:\Users\Alexx\Documents\GitHub\Unity_repo\.git
+2014-10-30 23:47:28.2304|INFO|thread:14|GitClient|Loading commits for repo: C:\Users\Alexx\Documents\GitHub\Unity_repo
+2014-10-30 23:47:28.2304|INFO|thread:14|RepositoryConnection|Loaded '2' commits for repo: C:\Users\Alexx\Documents\GitHub\Unity_repo\.
+2014-10-30 23:47:28.3094|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.Controls.CommitListItem is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:28.8514|WARN|thread: 1|POCOObservableForProperty|GitHub.Views.WorkingDirectoryFileDiffView is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2014-10-30 23:47:28.9584|INFO|thread: 1|RepositoryViewModel|Created Shadow Backup for Repo: C:\Users\Alexx\Documents\GitHub\Unity_repo => 5c27856f545b4656426e971e774f039f04062c91 in 964ms
+2014-10-30 23:47:28.9754|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2014-10-30 23:47:29.1484|INFO|thread: 8|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2014-10-30 23:47:29.1544|INFO|thread: 8|RepositoryConnection|branch stats: ahead 0, behind 0
+2014-10-30 23:47:29.1544|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts and running a full fetch.
+2014-10-30 23:47:29.2324|INFO|thread: 8|GitEnvironment|Process set up with this SSH Agent info: 704:/tmp/ssh-JvOqkrLeFxpD/agent.4120
+2014-10-30 23:47:29.2324|INFO|thread: 8|GitEnvironment|PATH is C:\Users\Alexx\AppData\Local\GitHub\PortableGit_ed44d00daa128db527396557813e7b68709ed0e2\cmd;C:\Users\Alexx\AppData\Local\GitHub\PortableGit_ed44d00daa128db527396557813e7b68709ed0e2\bin;C:\Users\Alexx\AppData\Local\Apps\2.0\OZPBLQV3.KJA\J62KJN9M.MTG\gith..tion_317444273a93ac29_0002.0005_f2bbfed8cb3268d4;C:\Users\Alexx\AppData\Local\GitHub\git-media-amd64_0.2.2;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2014-10-30 23:47:29.2324|INFO|thread: 8|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Alexx\AppData\Local\GitHub\PortableGit_ed44d00daa128db527396557813e7b68709ed0e2\bin\git.exe', Args: 'fetch origin --prune ', Working Directory: C:\Users\Alexx\Documents\GitHub\Unity_repo\
+2014-10-30 23:47:30.9515|INFO|thread: 8|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2014-10-30 23:47:30.9515|INFO|thread: 8|RepositoryConnection|branch stats: ahead 0, behind 0
